@@ -18,6 +18,7 @@ module.exports = {
       resolve: `gatsby-plugin-plausible`,
       options: {
         domain: `pad23.com`,
+        customDomain: `analytics.pad23.com`,
       },
     },
     {
