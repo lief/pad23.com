@@ -39,7 +39,7 @@ body {
   padding: 0 var(--space-s-l);
 
   line-height: 1.7;
-  font-family: Verdana, sans-serif;
+  font-family: "Helvetica Neue", sans-serif;
   font-weight: 300;
 
   background: linear-gradient(to bottom, #d1e4dd, transparent calc(1.7em * 16))
@@ -60,7 +60,7 @@ footer {
 
 h1, h2, h3, h4, h5, h6 {
   line-height: 1.1;
-  font-family: Georgia, serif;
+  font-family: Times, serif;
   font-weight: 400;
   margin-top: var(--space-l);
   margin-bottom: var(--space-xs);
