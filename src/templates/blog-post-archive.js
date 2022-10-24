@@ -48,7 +48,7 @@ const BlogIndex = ({
                       <span itemProp="headline">{parse(title)}</span>
                     </Link>
                   </h2>
-                  <small>{post.date}</small>
+                  <time>{post.date}</time>
                 </header>
                 <section itemProp="description">{parse(post.excerpt)}</section>
               </article>
