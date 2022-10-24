@@ -23,7 +23,7 @@ const Layout = ({ isHomePage, children }) => {
       <header className="global-header">
         {isHomePage ? (
           <h1 className="main-heading">
-            <Link to="/">{parse(title)}</Link>
+            {parse(title)}
           </h1>
         ) : (
           <Link className="header-link-home" to="/">
@@ -39,7 +39,7 @@ const Layout = ({ isHomePage, children }) => {
         {` `}
         <a href="https://www.gatsbyjs.com">Gatsby</a>
         {` `}
-        And <a href="https://wordpress.org/">WordPress</a>
+        and <a href="https://wordpress.org/">WordPress</a>
       </footer>
     </div>
   )

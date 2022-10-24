@@ -15,6 +15,12 @@ module.exports = {
    */
   plugins: [
     {
+      resolve: `gatsby-plugin-plausible`,
+      options: {
+        domain: `pad23.com`,
+      },
+    },
+    {
       /**
        * First up is the WordPress source plugin that connects Gatsby
        * to your WordPress site.
@@ -28,7 +34,7 @@ module.exports = {
         // the only required plugin option for WordPress is the GraphQL url.
         url:
           process.env.WPGRAPHQL_URL ||
-          `https://wpgatsbydemo.wpengine.com/graphql`,
+          `https://wp-admin.pad23.com/graphql`,
       },
     },
 
